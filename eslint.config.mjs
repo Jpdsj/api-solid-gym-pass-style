@@ -18,7 +18,7 @@ export default [
       'arrow-parens': ['error', 'always'], // Parênteses sempre em arrow functions: (param) => {}
       'space-before-blocks': ['error'], // Espaço depois do parenteses e antes de abri chaves (if)
       'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }], // Espaço após :
-      'keyword-spacing': ['error', { 'before': true, 'after': true }], // Espaço após :
+      'keyword-spacing': ['error', { 'before': true, 'after': true }], // Espaço entre palavra reservada e um parentese
       // Outras regras úteis
       'no-console': 'warn', // Aviso ao usar console.log para debug
       'no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }], // Ignora variáveis com prefixo "_"

@@ -16,7 +16,8 @@ export default [
       'object-curly-spacing': ['error', 'always'], // Espaço entre chaves de objetos: { a: 1 }
       'array-bracket-spacing': ['error', 'never'], // Sem espaço em colchetes de arrays: [1, 2]
       'arrow-parens': ['error', 'always'], // Parênteses sempre em arrow functions: (param) => {}
-
+      'space-before-blocks': ['error'], // Espaço depois do parenteses e antes de abri chaves (if)
+      'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }], // Espaço após :
       // Outras regras úteis
       'no-console': 'warn', // Aviso ao usar console.log para debug
       'no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }], // Ignora variáveis com prefixo "_"

@@ -20,7 +20,7 @@ export async function register(request: FastifyRequest, reply: FastifyReply)  {
     },
   });
 
-  if(userWithSameEmail) {
+  if (userWithSameEmail) {
     return reply.status(409).send();
   }
   
